@@ -18,6 +18,7 @@ public class UtilityClass
 
     public static String concatWords(String... words) 
     {
+        int anInt=0;
         StringBuilder buf = new StringBuilder();
         for (String word : words) 
 {
